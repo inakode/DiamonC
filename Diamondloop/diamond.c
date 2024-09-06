@@ -9,7 +9,7 @@ int main(void)
     do
     {
         h = get_int("Height: ");
-    } while (h < 1);
+    } while (h < 1 || h > 100);
 
     // Rows
     for (int i = 0; i < h; i++)
